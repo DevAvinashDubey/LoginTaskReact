@@ -118,11 +118,11 @@ h1 {
 }
 
 .google-btn {
-  border: 0.0625rem solid #4285f4;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 
 .facebook-btn {
-  border: 0.0625rem solid #3b5998;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 
 .or-divider {
