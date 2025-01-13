@@ -7,6 +7,7 @@ const LoginPage = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false); // State for toggling password visibility
   const [error, setError] = useState("");
   const [showPopup, setShowPopup] = useState(false);
   const navigate = useNavigate();
@@ -134,7 +135,7 @@ const LoginPage = () => {
             <div className="input-wrapper">
               <label htmlFor="password">Password</label>
               <input
-                type="password"
+                type={showPassword ? "text" : "password"} // Toggle between "text" and "password"
                 id="password"
                 name="password"
                 value={password}
@@ -143,10 +144,13 @@ const LoginPage = () => {
                 required
               />
             </div>
-            <span className="input-eye">
+            <span
+              className="input-eye"
+              onClick={() => setShowPassword(!showPassword)} // Toggle visibility state
+            >
               <img
                 src="/LoginTaskReact/eye-icon.png"
-                alt="Show/Hide Password"
+                alt={showPassword ? "Hide Password" : "Show Password"}
               />
             </span>
           </div>
