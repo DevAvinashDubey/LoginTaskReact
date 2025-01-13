@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/LoginTaskReact/static/css/main.a49a93e2.css",
-    "main.js": "/LoginTaskReact/static/js/main.6e9a13be.js",
+    "main.js": "/LoginTaskReact/static/js/main.d59f8d25.js",
     "static/js/453.9c5d69c4.chunk.js": "/LoginTaskReact/static/js/453.9c5d69c4.chunk.js",
     "index.html": "/LoginTaskReact/index.html",
     "main.a49a93e2.css.map": "/LoginTaskReact/static/css/main.a49a93e2.css.map",
-    "main.6e9a13be.js.map": "/LoginTaskReact/static/js/main.6e9a13be.js.map",
+    "main.d59f8d25.js.map": "/LoginTaskReact/static/js/main.d59f8d25.js.map",
     "453.9c5d69c4.chunk.js.map": "/LoginTaskReact/static/js/453.9c5d69c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a49a93e2.css",
-    "static/js/main.6e9a13be.js"
+    "static/js/main.d59f8d25.js"
   ]
 }
