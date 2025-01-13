@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f4f4f4;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: -3rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #333;
+}
+
+.brand {
+  color: #6c63ff;
+  font-size: 2.5rem;
+  font-weight: 1000;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 1.2rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 16rem;
+}
+
+.profile-image {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  margin-bottom: 0.9375rem;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.data {
+  font-size: 0.875rem;
+  color: #666;
+  margin: 0 0 0.125rem 0;
+  padding: 0 0.9375rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+  width: 100%;
+}
+
+.logout-btn {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 0.9375rem;
+  padding: 0.875rem 2.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #5a52d6;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .profile {
+    width: 15rem; /* Adjust width for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    width: 15rem;
+    padding: 1.25rem; /* Adjust padding for smaller screens */
+    margin: 1.25rem; /* Add margin around the card for better spacing */
+  }
+
+  h2 {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0 1.25rem;
+  }
+
+  .data {
+    font-size: 0.875rem; /* Adjust font size for smaller screens */
+    color: #666;
+    margin: 0 0 0.125rem 0;
+    padding: 0 1.25rem;
+  }
+
+  .title {
+    font-size: 1.75rem; /* Adjust title size for smaller screens */
+  }
+
+  .brand {
+    font-size: 2rem; /* Adjust brand size for smaller screens */
+  }
+
+  .logout-btn {
+    padding: 0.75rem 1.875rem; /* Adjust button padding */
+    font-size: 0.875rem; /* Adjust font size */
+  }
+}
