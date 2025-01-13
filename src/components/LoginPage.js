@@ -69,7 +69,10 @@ const LoginPage = () => {
         </div>
       )}
       <div className="login-left">
-        <img src="/login-illustration.png" alt="Login Illustration" />
+        <img
+          src="/LoginTaskReact/login-illustration.png"
+          alt="Login Illustration"
+        />
       </div>
       <div className="login-right">
         <h1 className="title">
@@ -79,11 +82,11 @@ const LoginPage = () => {
 
         <div className="social-login-buttons">
           <button className="social-btn google-btn">
-            <img src="/google-icon.png" alt="Google" />
+            <img src="/LoginTaskReact/google-icon.png" alt="Google" />
             Login with Google
           </button>
           <button className="social-btn facebook-btn">
-            <img src="/facebook-icon.png" alt="Facebook" />
+            <img src="/LoginTaskReact/facebook-icon.png" alt="Facebook" />
             Login with Facebook
           </button>
         </div>
@@ -92,7 +95,7 @@ const LoginPage = () => {
         <form className="login-form" onSubmit={handleLogin}>
           <div className="input-group">
             <span className="input-icon">
-              <img src="/user-icon.png" alt="User" />
+              <img src="/LoginTaskReact/user-icon.png" alt="User" />
             </span>
             <div className="input-wrapper">
               <label htmlFor="username">User name</label>
@@ -109,7 +112,7 @@ const LoginPage = () => {
           </div>
           <div className="input-group">
             <span className="input-icon">
-              <img src="/email-icon.png" alt="Email" />
+              <img src="/LoginTaskReact/email-icon.png" alt="Email" />
             </span>
             <div className="input-wrapper">
               <label htmlFor="email">Email</label>
@@ -126,7 +129,7 @@ const LoginPage = () => {
           </div>
           <div className="input-group">
             <span className="input-icon">
-              <img src="/password-icon.png" alt="Password" />
+              <img src="/LoginTaskReact/password-icon.png" alt="Password" />
             </span>
             <div className="input-wrapper">
               <label htmlFor="password">Password</label>
@@ -141,7 +144,10 @@ const LoginPage = () => {
               />
             </div>
             <span className="input-eye">
-              <img src="/eye-icon.png" alt="Show/Hide Password" />
+              <img
+                src="/LoginTaskReact/eye-icon.png"
+                alt="Show/Hide Password"
+              />
             </span>
           </div>
           <div className="remember-me">

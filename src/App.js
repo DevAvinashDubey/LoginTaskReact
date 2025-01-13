@@ -10,7 +10,7 @@ import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/LoginTaskReact">
       <Routes>
         <Route path="/auth/login" element={<LoginPage />} />
         <Route path="/home" element={<MainPage />} />
